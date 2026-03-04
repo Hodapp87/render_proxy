@@ -5,7 +5,7 @@ services:
     repo: https://github.com/Hodapp87/render_proxy
     region: ohio
     plan: free
-    branch: master
+    branch: main
     envVars:
       - key: PROXY_AUTH_PASSWORD
         generateValue: true
