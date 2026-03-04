@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: render_proxy
+    env: docker
+    repo: https://github.com/Hodapp87/render_proxy
+    region: ohio
+    plan: free
+    branch: master
+    envVars:
+      - key: PROXY_AUTH_PASSWORD
+        generateValue: true
